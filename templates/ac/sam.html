@@ -1,0 +1,12 @@
+{% body_block%}
+    <script language="javascript" type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script language="javascript" type="text/javascript" src="{%static "javascript/jquery.flot.js" %}"></script>
+    <script language="javascript" type="text/javascript">
+  
+  {%  autoescape off %}
+	var dataRows = {{countanswer}};
+   {% endautoescape %}
+</script>
+{% endbody_block %}
+
+
